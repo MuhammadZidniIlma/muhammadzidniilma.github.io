@@ -253,20 +253,30 @@ section{
 }
 
 .skillbar .progress-line .html {
-  width: 80%;
+  width: 95%;
 }
 .skillbar .progress-line .css {
-  width: 70%;
-}
-.skillbar .progress-line .bootstrap {
-  width: 82%;
-}
-.skillbar .progress-line .javascript {
-  width: 62%;
-}
-.skillbar .progress-line .c {
   width: 90%;
 }
+.skillbar .progress-line .bootstrap {
+  width: 85%;
+}
+.skillbar .progress-line .TailwindCss {
+  width: 88%;
+}
+.skillbar .progress-line .Sass {
+  width: 90%;
+}
+.skillbar .progress-line .javascript {
+  width: 60%;
+}
+.skillbar .progress-line .php {
+  width: 65%;
+}
+.skillbar .progress-line .figma {
+  width: 78%;
+}
+
 
 .skillbar .bar .progress-line span::before {
   position: absolute;
@@ -296,20 +306,29 @@ section{
 
 
 .skillbar .progress-line .html::after {
-  content: "80%";
+  content: "95%";
 }
 .skillbar .progress-line .css::after {
-  content: "70%";
+  content: "90%";
 }
 .skillbar .progress-line .bootstrap::after {
-  content: "82%";
+  content: "85%";
+}
+.skillbar .progress-line .TailwindCss::after {
+  content: "88%";
+}
+.skillbar .progress-line .Sass::after {
+  content: "90%";
 }
 .skillbar .progress-line .javascript::after {
   content: "62%";
 }
-.skillbar .progress-line .c::after {
-  content: "90%";
-}    
+.skillbar .progress-line .php::after {
+  content: "65%";
+}
+.skillbar .progress-line .figma::after {
+  content: "78%";
+}     
 
 .contact{
   background: var(--bg-color);
